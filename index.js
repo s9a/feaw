@@ -16,7 +16,7 @@ $(function() {
       $(this)
         .css("font-size", value*0.62 + "vh")
         .closest(".flavor")
-        .css("height", value + "vh")
+        .css("height", value + "%")
         .css("font-size", value*0.38 + "vh")
     })
   }
